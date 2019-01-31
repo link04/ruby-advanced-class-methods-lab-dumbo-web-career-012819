@@ -45,7 +45,7 @@ class Song
   end
   
   def self.new_from_filename(song_title)
-    name = song_title.split('.mp3')
+    name = song_title.split('[//]')
     self.create_by_name(name)
   end
   
