@@ -1,4 +1,5 @@
 binding.pry
+
 class Song
   attr_accessor :name, :artist_name
   @@all = []
@@ -12,7 +13,7 @@ class Song
   end
   
   def self.create
-    return self.new
+     self.new
   end
 
 end
