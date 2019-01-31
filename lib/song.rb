@@ -16,7 +16,7 @@ class Song
     song =  self.new
     self.all << song
     song.save
-    
+    song
   end
   
   
