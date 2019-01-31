@@ -48,7 +48,8 @@ class Song
     name = song_title.split(/[-.]/)
     artist = 
     binding.pry
-    self.create_by_name(name[1].lstrip)
+    song = self.create_by_name(name[1].lstrip)
+    song.artist = 
   end
   
 end
