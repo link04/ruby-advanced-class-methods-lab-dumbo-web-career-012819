@@ -47,6 +47,7 @@ class Song
   def self.new_from_filename(song_title)
     name = song_title.split(/[-.]/)
     song = name[1].lstrip  
+    bidning.pry
     self.create_by_name(song)
   end
   
