@@ -47,8 +47,9 @@ class Song
   def self.new_from_filename(song_title)
     name = song_title.split(/[-.]/)
     song = name[1].lstrip  
+    artist = 
     binding.pry
-    self.create_by_name(song)
+    self.create_by_name(name[1].lstrip  )
   end
   
 end
