@@ -55,4 +55,8 @@ class Song
     self.new_from_filename(song_title)
   end
   
+  def self.all
+    
+  end
+  
 end
