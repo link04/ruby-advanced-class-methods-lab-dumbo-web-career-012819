@@ -44,8 +44,8 @@ class Song
     self.all.sort_by! { |a| a.name }
   end
   
-  def self.new_from_filename
-    
+  def self.new_from_filename(song_title)
+    song_title.split('.mp3')
   end
   
 end
