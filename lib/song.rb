@@ -13,7 +13,8 @@ class Song
   end
   
   def self.create
-     self.new
+    ok = self.new
+    require.pry
   end
 
 end
