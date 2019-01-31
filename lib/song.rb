@@ -31,13 +31,13 @@ class Song
   end
   
   def self.find_by_name(song_title)
-    self.all.select {|song| song.name == song_title }
+    self.all.select {|song| song.name == song_title }[0]
   
   end
   
   def self.find_or_create_by_name(name)
     self.create_by_name(name)
-    self.find_by_name(name)[0]
+    self.find_by_name(name)
   end
 
 end
