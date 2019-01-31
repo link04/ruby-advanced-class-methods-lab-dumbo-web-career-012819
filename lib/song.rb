@@ -14,7 +14,7 @@ class Song
   
   def self.create
     ok = self.new
-    require.pry
+    binding.pry
   end
 
 end
