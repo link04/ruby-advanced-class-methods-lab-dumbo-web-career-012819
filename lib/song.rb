@@ -20,8 +20,6 @@ class Song
   
   def self.new_by_name(song_title)
    self.create.name = song_title
-  
-       binding.pry
   end
   
   def self.create_by_name(name)
